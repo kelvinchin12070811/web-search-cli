@@ -2,7 +2,7 @@
 
 Web Search CLI is a tool that trigger web search from command line that inspired by Microsoft PowerToys' PowerToys Run.
 PowerToys Run is a utility that is similar to MacOS's spotlight feature and web search is one of it. However, PowerToys
-Run's web search feature is broken on Firefox due to a [a bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1667577)
+Run's web search feature is broken on Firefox due to a [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1667577)
 which always open the search terms in a new window.
 
 This cli tool is a replacement of it via the PowerToys Run's run shell command feature. It can be use to trigger search
