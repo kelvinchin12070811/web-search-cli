@@ -1,10 +1,14 @@
+#![windows_subsystem = "windows"]
+
 use std::env;
+use std::os::windows::process::CommandExt;
 use std::process;
 
 use urlencoding::encode;
 
 fn launch_search(url: &str) {
     process::Command::new("cmd")
+        .creation_flags(0x08000000)
         .arg("/c")
         .arg("start")
         .arg(url)
